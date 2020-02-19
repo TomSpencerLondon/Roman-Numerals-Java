@@ -4,7 +4,12 @@ public class RomanNumeralConverter {
     public String convert(int number){
         String result = "";
 
-        if(number >= 10){
+        if(number >= 100){
+            result += "C";
+            number -= 100;
+        }
+
+        while(number >= 10){
             result += "X";
             number -= 10;
         }
