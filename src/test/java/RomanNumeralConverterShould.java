@@ -40,6 +40,16 @@ public class RomanNumeralConverterShould {
     public void returnsVIIfor7(){
         assertEquals("VII", converter.convert(7));
     }
+
+    @Test
+    public void returnsXfor10(){
+        assertEquals("X", converter.convert(10));
+    }
+
+    @Test
+    public void returnsXXfor20(){
+        assertEquals("XX", converter.convert(20));
+    }
 //
 ////    @Test
 ////    public void returnsVfor5(){

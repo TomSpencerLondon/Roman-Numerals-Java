@@ -4,13 +4,17 @@ public class RomanNumeralConverter {
     public String convert(int number){
         String result = "";
 
-        if(number == 4){
-            result += "IV";
-            number -= 4;
+        if(number >= 10){
+            result += "X";
+            number -= 10;
         }
         if(number >= 5){
             result += "V";
             number -= 5;
+        }
+        if(number == 4){
+            result += "IV";
+            number -= 4;
         }
         while(number > 0){
             result += "I";

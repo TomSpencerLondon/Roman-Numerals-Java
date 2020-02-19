@@ -78,16 +78,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanNumeralConverterShould.returnsVIIfor7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RomanNumerals" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RomanNumeralConverterShould" />
-      <option name="METHOD_NAME" value="returnsVIIfor7" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RomanNumeralConverterShould.returnsVIfor6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumerals" />
       <option name="PACKAGE_NAME" value="" />
@@ -108,6 +98,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RomanNumeralConverterShould.returnsXfor10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanNumerals" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RomanNumeralConverterShould" />
+      <option name="METHOD_NAME" value="returnsXfor10" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RomanNumeralConverterShould.zeroReturnsEmptyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumerals" />
       <option name="PACKAGE_NAME" value="" />
@@ -121,10 +121,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RomanNumeralConverterShould" />
+        <item itemvalue="JUnit.RomanNumeralConverterShould.returnsXfor10" />
         <item itemvalue="JUnit.RomanNumeralConverterShould.returnsVIfor6" />
         <item itemvalue="JUnit.RomanNumeralConverterShould.zeroReturnsEmptyString" />
         <item itemvalue="JUnit.RomanNumeralConverterShould.returnsVfor5" />
-        <item itemvalue="JUnit.RomanNumeralConverterShould.returnsVIIfor7" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +140,7 @@
       <updated>1582050091604</updated>
       <workItem from="1582050096416" duration="486000" />
       <workItem from="1582050620653" duration="27000" />
-      <workItem from="1582113885335" duration="14422000" />
+      <workItem from="1582113885335" duration="14877000" />
     </task>
     <servers />
   </component>
