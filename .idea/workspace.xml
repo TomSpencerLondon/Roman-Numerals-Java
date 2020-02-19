@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88193afc-893e-40ff-88b5-dd83cd1d389d" name="Default Changelist" comment="" />
+    <list default="true" id="88193afc-893e-40ff-88b5-dd83cd1d389d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RomanNumeralConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RomanNumeralConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RomanNumeralConverterShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RomanNumeralConverterShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RomanNumeralConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RomanNumeralConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RomanNumeralConverterShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RomanNumeralConverterShould.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +25,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XzXr4Au0vsUxPYDo1rvyEEZ05Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
@@ -68,16 +78,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanNumeralConverterShould.returnsIVfor4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RomanNumerals" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RomanNumeralConverterShould" />
-      <option name="METHOD_NAME" value="returnsIVfor4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RomanNumeralConverterShould.returnsVIIfor7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumerals" />
       <option name="PACKAGE_NAME" value="" />
@@ -108,13 +108,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RomanNumeralConverterShould.zeroReturnsEmptyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanNumerals" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RomanNumeralConverterShould" />
+      <option name="METHOD_NAME" value="zeroReturnsEmptyString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RomanNumeralConverterShould" />
-        <item itemvalue="JUnit.RomanNumeralConverterShould.returnsVIIfor7" />
         <item itemvalue="JUnit.RomanNumeralConverterShould.returnsVIfor6" />
+        <item itemvalue="JUnit.RomanNumeralConverterShould.zeroReturnsEmptyString" />
         <item itemvalue="JUnit.RomanNumeralConverterShould.returnsVfor5" />
-        <item itemvalue="JUnit.RomanNumeralConverterShould.returnsIVfor4" />
+        <item itemvalue="JUnit.RomanNumeralConverterShould.returnsVIIfor7" />
       </list>
     </recent_temporary>
   </component>
@@ -130,11 +140,22 @@
       <updated>1582050091604</updated>
       <workItem from="1582050096416" duration="486000" />
       <workItem from="1582050620653" duration="27000" />
-      <workItem from="1582113885335" duration="8175000" />
+      <workItem from="1582113885335" duration="14422000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

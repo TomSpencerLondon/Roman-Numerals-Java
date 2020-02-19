@@ -12,6 +12,11 @@ public class RomanNumeralConverterShould {
     }
 
     @Test
+    public void zeroReturnsEmptyString() {
+        assertEquals("", converter.convert(0));
+    }
+
+    @Test
     public void returnsIfor1(){
         assertEquals("I", converter.convert(1));
     }
@@ -27,27 +32,32 @@ public class RomanNumeralConverterShould {
     }
 
     @Test
-    public void returnsIVfor4(){
-        assertEquals("IV", converter.convert(4));
-    }
-
-    @Test
-    public void returnsVfor5(){
-        assertEquals("V", converter.convert(5));
-    }
-
-    @Test
     public void returnsVIfor6(){
         assertEquals("VI", converter.convert(6));
     }
 
-//    @Test
-//    public void returnsVIIfor7(){
-//        assertEquals("VII", converter.convert(7));
-//    }
+    @Test
+    public void returnsVIIfor7(){
+        assertEquals("VII", converter.convert(7));
+    }
+//
+////    @Test
+////    public void returnsVfor5(){
+////        assertEquals("V", converter.convert(5));
+////    }
 //
 //    @Test
-//    public void returnsVIIIfor8(){
-//        assertEquals("VIII", converter.convert(8));
+//    public void returnsVIfor6(){
+//        assertEquals("VI", converter.convert(6));
 //    }
+//
+////    @Test
+////    public void returnsVIIfor7(){
+////        assertEquals("VII", converter.convert(7));
+////    }
+////
+////    @Test
+////    public void returnsVIIIfor8(){
+////        assertEquals("VIII", converter.convert(8));
+////    }
 }
