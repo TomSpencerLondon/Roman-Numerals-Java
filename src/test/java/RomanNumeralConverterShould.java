@@ -20,7 +20,7 @@ public class RomanNumeralConverterShould {
     public void returnsIfor1(){
         assertEquals("I", converter.convert(1));
     }
-
+//
     @Test
     public void returnsIIfor2() {
         assertEquals("II", converter.convert(2));
@@ -59,6 +59,11 @@ public class RomanNumeralConverterShould {
     @Test
     public void returnsXCfor100(){
         assertEquals("C", converter.convert(100));
+    }
+
+    @Test
+    public void returnsCfor100(){
+        assertEquals("XC", converter.convert(90));
     }
 
 //
