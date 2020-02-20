@@ -4,11 +4,8 @@
     <list default="true" id="88193afc-893e-40ff-88b5-dd83cd1d389d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RomanNumeralConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RomanNumeralConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RomanNumeralConverterShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RomanNumeralConverterShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RomanNumeralConverterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RomanNumeralConverter$NumberToNumeral.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RomanNumeralConverter$NumberToNumeral.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/RomanNumeralConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RomanNumeralConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RomanNumeralConverterShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RomanNumeralConverterShould.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RomanNumeralConverterTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +141,7 @@
       <workItem from="1582050096416" duration="486000" />
       <workItem from="1582050620653" duration="27000" />
       <workItem from="1582113885335" duration="18347000" />
-      <workItem from="1582193008600" duration="2113000" />
+      <workItem from="1582193008600" duration="3013000" />
     </task>
     <servers />
   </component>

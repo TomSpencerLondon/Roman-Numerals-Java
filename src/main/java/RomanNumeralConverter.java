@@ -1,26 +1,16 @@
 import java.util.HashMap;
 
 public class RomanNumeralConverter {
-    String result = "";
-
-
     public String convert(int number){
-        result = "";
+        String result = "";
         for(NumberToNumeral numberToNumeral: NumberToNumeral.values()){
-            number = resultParser(number, numberToNumeral.number, numberToNumeral.numeral);
+            while(number >= numberToNumeral.number){
+                result += NumberToNumeral.translate(numberToNumeral.number);
+                number -= numberToNumeral.number;
+            }
         }
         return result;
     }
-
-    private int resultParser(int number, int minimum, String numeral){
-        while(number >= minimum){
-
-            result += numeral;
-            number -= minimum;
-        }
-        return number;
-    }
-
 
     enum NumberToNumeral {
         ONE_HUNDRED(100, "C"),
@@ -37,5 +27,15 @@ public class RomanNumeralConverter {
             this.number = number;
             this.numeral = numeral;
         }
+
+        public static String translate(int number){
+            for (NumberToNumeral n : values()){
+                if(n.number == number){
+                    return n.numeral;
+                }
+            }
+            return "";
+        }
+
     }
 }
