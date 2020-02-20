@@ -57,12 +57,13 @@ public class RomanNumeralConverterShould {
     }
 
     @Test
-    public void returnsXCfor100(){
+    public void returnsCfor100(){
         assertEquals("C", converter.convert(100));
     }
 
     @Test
-    public void returnsCfor100(){
+    public void returnsXCfor90(){
+        converter.convert(150);
         assertEquals("XC", converter.convert(90));
     }
 
